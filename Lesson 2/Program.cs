@@ -32,7 +32,6 @@ namespace Lesson_2
             Console.WriteLine(name + " " + surname);
             Console.ReadKey();
 
-
         }   
     }
 }
