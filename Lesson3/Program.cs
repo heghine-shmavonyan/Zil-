@@ -17,7 +17,7 @@ namespace Lesson3
             Console.WriteLine(a * b);
             Console.WriteLine(a / b);
             Console.WriteLine(a % b);
-     
+
             float m = 20.3456f;
             float n = 27.345625f;
             Console.WriteLine(m + n);
@@ -25,29 +25,29 @@ namespace Lesson3
             Console.WriteLine(m * n);
             Console.WriteLine(m / n);
             Console.WriteLine(m % n);
-            
+
 
 
             int l = 235;
             byte k = (byte)l;
             Console.WriteLine(k);
-  
+
 
             int g = 4000;
             byte f = (byte)g;
             Console.WriteLine(f);
-  
+
 
             int c = 235;
             byte y;
             checked
-               
-            { 
-                y = (byte)c; 
+
+            {
+                y = (byte)c;
             }
-            
-            Console.WriteLine("For checked one "+ y);
-      
+
+            Console.WriteLine("For checked one " + y);
+
 
             int e = 2353;
             byte u;
