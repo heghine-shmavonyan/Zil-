@@ -36,10 +36,9 @@ namespace Lesson_4
             Console.WriteLine(res2);
             Console.ReadKey();
 
-
-
-
-
+            string aa = Console.ReadLine();
+            string aaa = Console.ReadLine();
+            double aaaa = Double.Parse(aa);
         }
     }
 }
