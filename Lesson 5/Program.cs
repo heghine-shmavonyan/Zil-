@@ -58,7 +58,7 @@ namespace Lesson_5
                     }
                     break;
             }
-        
+
 
             //Task 2
 
@@ -76,7 +76,7 @@ namespace Lesson_5
                 Console.WriteLine("The written number isn't divided into 2 or 3");
 
             }
-            
+
 
             //Task 2.1
 
@@ -104,8 +104,37 @@ namespace Lesson_5
             Console.WriteLine("Write an odd and natural number");
 
             Int32 num3 = Int32.Parse(Console.ReadLine());
-            Console.WriteLine(num3> 0 && num3 % 2 != 0 ? "The number is natural and odd" : "The number is not natural and odd");
+            Console.WriteLine(num3 > 0 && num3 % 2 != 0 ? "The number is natural and odd" : "The number is not natural and odd");
+            
+
+            //Task 4 
+            Console.WriteLine("Write a number");
+
+            int num4 = int.Parse(Console.ReadLine());
+            int num5 = int.Parse(Console.ReadLine());
+
+            int num6;
+            num6 = num4 + num5;
+            num5 = num6 - num5;
+            num4 = num6 - num4;
+
+            Console.WriteLine(num4);
+            Console.WriteLine(num5);
+
+            //Task 4.1
+            Console.WriteLine("Write a number");
+
+            int num7 = int.Parse(Console.ReadLine());
+            int num8 = int.Parse(Console.ReadLine());
+            num7 = num7 + num8;
+            num8 = num7 - num8;
+            num7 = num7 - num8;
+
+            Console.WriteLine(num7);
+            Console.WriteLine(num8);
             Console.ReadKey();
+
+
 
         }
 
