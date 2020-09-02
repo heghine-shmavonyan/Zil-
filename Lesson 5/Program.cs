@@ -9,8 +9,8 @@ namespace Lesson_5
     class Program
     {
         static void Main(string[] args)
-        {
-            Console.WriteLine( "Write a number from 1 to 7 ");
+        {    // Task 1
+            Console.WriteLine("Write a number from 1 to 7 ");
 
             string number = Console.ReadLine();
 
@@ -58,9 +58,56 @@ namespace Lesson_5
                     }
                     break;
             }
+        
+
+            //Task 2
+
+            Console.WriteLine("Write a number");
+
+            Int32 num = Int32.Parse(Console.ReadLine());
+
+            if (num % 2 == 0 || num % 3 == 0)
+            {
+                Console.WriteLine("The written number divided into 2 or 3");
+            }
+
+            else
+            {
+                Console.WriteLine("The written number isn't divided into 2 or 3");
+
+            }
+            
+
+            //Task 2.1
+
+            Console.WriteLine("Write a number");
+
+            Int32 num1 = Int32.Parse(Console.ReadLine());
+            Console.WriteLine(num1 % 2 == 0 || num1 % 3 == 0 ? "The written number divided into 2 or 3" : "The written number isn't divided into 2 or 3");
+
+            //Task 3
+
+            Console.WriteLine("Write an odd and natural number");
+
+            Int32 num2 = Int32.Parse(Console.ReadLine());
+            if (num2 > 0 && num2 % 2 != 0)
+            {
+                Console.WriteLine("The number is natural and odd");
+            }
+            else
+            {
+                Console.WriteLine("The number is not natural and odd");
+            }
+
+            //Task 3.1
+
+            Console.WriteLine("Write an odd and natural number");
+
+            Int32 num3 = Int32.Parse(Console.ReadLine());
+            Console.WriteLine(num3> 0 && num3 % 2 != 0 ? "The number is natural and odd" : "The number is not natural and odd");
             Console.ReadKey();
 
-
         }
+
     }
 }
