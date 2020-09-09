@@ -24,7 +24,6 @@ namespace Lesson_7
 
         static void Numbers(int a,int b)
         {
-            
             //6 տրված են a և b (a < b) ամբողջ թվերը։ արտածել աճման կարգով [a, b] հատվածին պատկանող ամբողջ թվերը, ապա նաև նրանց քանակը։
 
             if (a < b)
@@ -68,8 +67,7 @@ namespace Lesson_7
             }
         }
         static void MultipleTo3Numbers()
-        {
-            
+        { 
             // 8 Տրված են A և B (A < B) ամբողջ թվերը։ Գտնել [A, B] հատվածին պատկանող 3-ին պատիկ առաջին թիվը։
 
             int A = int.Parse(Console.ReadLine());
