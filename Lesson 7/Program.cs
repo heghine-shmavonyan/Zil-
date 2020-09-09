@@ -21,11 +21,6 @@ namespace Lesson_7
             SumOfOddNumbers();
             MultipleOfNumbers();
             SumCountOfNumbers();
-
-
-
-
-
         }
 
 
@@ -33,8 +28,6 @@ namespace Lesson_7
         {
             
             //6 տրված են a և b (a < b) ամբողջ թվերը։ արտածել աճման կարգով [a, b] հատվածին պատկանող ամբողջ թվերը, ապա նաև նրանց քանակը։
-
-            
 
             if (a < b)
             {
@@ -55,7 +48,6 @@ namespace Lesson_7
 
         static void SumNumbers()
         {
-            
             //7 Տրված են A և B (A < B) ամբողջ թվերը։ Գտնել [A, B] հատվածին պատկանող բոլոր ամբողջ թվերի գումարը։
 
             int A = int.Parse(Console.ReadLine());
@@ -87,15 +79,12 @@ namespace Lesson_7
 
             if (A < B)
             {
-
                 for (int i = A; i <= B; i++)
                 {
-
                     if (i % 3 == 0)
                     {
                         Console.WriteLine(i);
                     }
-
                 }
                 Console.WriteLine("There isn't number divisible into 3");
                 Console.ReadKey();
@@ -109,22 +98,16 @@ namespace Lesson_7
 
         static void SumOfNumbers()
         {
-
-
-           
             // 9 Տրված է N բնական թիվը։ Հաշվել 1 + 1/2 + 1/3 + … + 1/N գումարը (այն իրական թիվ է)։
 
             int N = int.Parse(Console.ReadLine());
-
 
             if (N > 0)
             {
                 double sum2 = 0;
                 for (double i = 1; i <= N; i++)
                 {
-
                     sum2 = sum2 + 1 / i;
-
                 }
                 Console.WriteLine(sum2);
                 Console.ReadKey();
@@ -157,10 +140,7 @@ namespace Lesson_7
         {
             //11 Տրված է N բնական թիվը։ Հաշվել 1.1 · 1.2 · 1.3 · … արտադրյալը (արտադրիչների քանակը N է)։
 
-
-
             double N2 = double.Parse(Console.ReadLine());
-
 
             if (N2 > 0)
             {
@@ -173,7 +153,6 @@ namespace Lesson_7
                 }
                 Console.WriteLine(sum2);
                 Console.ReadKey();
-
             }
             else
             {
@@ -187,10 +166,7 @@ namespace Lesson_7
         {
             //12/Տրված է N բնական թիվը։ Հաշվել 1.1 – 1.2 + 1.3 – … արտահայտության արժեքը։ Նշանափոխ գումարելիների քանակը N է։ Պայմանական (if) օպերատոր չօգտագործել։
 
-
             double N = double.Parse(Console.ReadLine());
-
-
 
             double sum = 0;
             double sum1 = 0;
