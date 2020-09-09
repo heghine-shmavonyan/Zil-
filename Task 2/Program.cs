@@ -16,11 +16,10 @@ namespace Task_2
             LessThan7(num5);
             MinOddValue(num5);
             Console.ReadLine();
-
         }
         static void MinOddValue(int num)
-        { //Խնդիր_17 Գտնել տրված թվի կենտ թվանշաններից ամենափոքրը։
-
+        { 
+            //Խնդիր_17 Գտնել տրված թվի կենտ թվանշաններից ամենափոքրը։
 
             string num1 = num.ToString();
             int[] nums = new int[num1.Length];
@@ -36,15 +35,15 @@ namespace Task_2
                     minValue = nums[i];
                 }
             }
-
             Console.WriteLine(minValue);
-
         }
 
 
 
         static void MinOddGreater4Value(int num)
-        {//Խնդիր_18 Հաշվել տրված թվի 4-ից մեծ կենտ թվանշանների գումարը։
+        {
+            //Խնդիր_18 Հաշվել տրված թվի 4-ից մեծ կենտ թվանշանների գումարը։
+
             string num1 = num.ToString();
             int[] nums = new int[num1.Length];
             for (int i = 0; i < num1.Length; i++)
@@ -65,11 +64,10 @@ namespace Task_2
 
             Console.WriteLine(sum);
 
-
         }
         static void LessThan7(int num)
-        {//Խնդիր_19 Հաշվել տրված թվի 7-ից փոքր զույգ թվանշանների արտադրյալը։
-
+        {
+            //Խնդիր_19 Հաշվել տրված թվի 7-ից փոքր զույգ թվանշանների արտադրյալը։
 
             string num1 = num.ToString();
             int[] nums = new int[num1.Length];
