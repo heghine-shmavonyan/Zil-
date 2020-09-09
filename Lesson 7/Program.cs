@@ -12,16 +12,29 @@ namespace Lesson_7
 
         static void Main(string[] args)
         {
+            int a = int.Parse(Console.ReadLine());
+            int b = int.Parse(Console.ReadLine());
+            Numbers(a, b);
+            SumNumbers();
+            MultipleTo3Numbers();
+            SumOfNumbers();
+            SumOfOddNumbers();
+            MultipleOfNumbers();
+            SumCountOfNumbers();
+
+
+
+
+
         }
 
 
-        static void Numbers(int num)
+        static void Numbers(int a,int b)
         {
-            Console.WriteLine("տրված են a և b (a < b) ամբողջ թվերը։ արտածել աճման կարգով [a, b] հատվածին պատկանող ամբողջ թվերը, ապա նաև նրանց քանակը։");
+            
             //6 տրված են a և b (a < b) ամբողջ թվերը։ արտածել աճման կարգով [a, b] հատվածին պատկանող ամբողջ թվերը, ապա նաև նրանց քանակը։
 
-            int a = int.Parse(Console.ReadLine());
-            int b = int.Parse(Console.ReadLine());
+            
 
             if (a < b)
             {
@@ -40,9 +53,9 @@ namespace Lesson_7
         }
 
 
-        static void SumNumbers(int num)
+        static void SumNumbers()
         {
-            Console.WriteLine("Տրված են A և B (A < B) ամբողջ թվերը։ Գտնել [A, B] հատվածին պատկանող բոլոր ամբողջ թվերի գումարը։");
+            
             //7 Տրված են A և B (A < B) ամբողջ թվերը։ Գտնել [A, B] հատվածին պատկանող բոլոր ամբողջ թվերի գումարը։
 
             int A = int.Parse(Console.ReadLine());
@@ -64,9 +77,9 @@ namespace Lesson_7
                 Console.ReadKey();
             }
         }
-        static void MultipleTo3Numbers(int num)
+        static void MultipleTo3Numbers()
         {
-            Console.WriteLine("Տրված են A և B (A < B) ամբողջ թվերը։ Գտնել [A, B] հատվածին պատկանող 3-ին պատիկ առաջին թիվը։");
+            
             // 8 Տրված են A և B (A < B) ամբողջ թվերը։ Գտնել [A, B] հատվածին պատկանող 3-ին պատիկ առաջին թիվը։
 
             int A = int.Parse(Console.ReadLine());
@@ -94,11 +107,11 @@ namespace Lesson_7
             }
         }
 
-        static void SumOfNumbers(int num)
+        static void SumOfNumbers()
         {
 
 
-            Console.WriteLine("9 Տրված է N բնական թիվը։ Հաշվել 1 + 1/2 + 1/3 + … + 1/N գումարը (այն իրական թիվ է)։");
+           
             // 9 Տրված է N բնական թիվը։ Հաշվել 1 + 1/2 + 1/3 + … + 1/N գումարը (այն իրական թիվ է)։
 
             int N = int.Parse(Console.ReadLine());
@@ -123,7 +136,7 @@ namespace Lesson_7
             }
         }
 
-        static void SumOfOddNumbers(int num)
+        static void SumOfOddNumbers()
         {
             //10 Տրված է N բնական թիվը։ Հաշվել N2 + (N + 1)2 + (N + 2)2 + … + (2·N)2 գումարը։
 
@@ -140,7 +153,7 @@ namespace Lesson_7
         }
 
 
-        static void MultipleOfNumbers(int num)
+        static void MultipleOfNumbers()
         {
             //11 Տրված է N բնական թիվը։ Հաշվել 1.1 · 1.2 · 1.3 · … արտադրյալը (արտադրիչների քանակը N է)։
 
@@ -170,7 +183,7 @@ namespace Lesson_7
         }
 
 
-        static void SumCountOfNumbers(int num)
+        static void SumCountOfNumbers()
         {
             //12/Տրված է N բնական թիվը։ Հաշվել 1.1 – 1.2 + 1.3 – … արտահայտության արժեքը։ Նշանափոխ գումարելիների քանակը N է։ Պայմանական (if) օպերատոր չօգտագործել։
 
